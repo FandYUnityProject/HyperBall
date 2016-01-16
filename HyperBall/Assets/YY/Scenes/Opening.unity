@@ -96,6 +96,7 @@ GameObject:
   - 223: {fileID: 85786214}
   - 114: {fileID: 85786213}
   - 114: {fileID: 85786212}
+  - 114: {fileID: 85786215}
   m_Layer: 5
   m_Name: DebugInfo_Canvas
   m_TagString: Untagged
@@ -116,7 +117,7 @@ RectTransform:
   m_Children:
   - {fileID: 1778564525}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -180,6 +181,17 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 9999
   m_TargetDisplay: 0
+--- !u!114 &85786215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 85786210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a9263efcaa2384586a8e3594454639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &130183992
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,7 +202,7 @@ GameObject:
   - 4: {fileID: 130183994}
   - 114: {fileID: 130183993}
   m_Layer: 0
-  m_Name: FadeOut_Panel_Controll
+  m_Name: SceneTransition_Controll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -219,7 +231,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
 --- !u!1 &239871905
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +789,7 @@ GameObject:
   - 223: {fileID: 1707953412}
   - 114: {fileID: 1707953411}
   - 114: {fileID: 1707953410}
+  - 114: {fileID: 1707953408}
   m_Layer: 5
   m_Name: Fadeout_Canvas
   m_TagString: Untagged
@@ -784,6 +797,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1707953408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1707953407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a9263efcaa2384586a8e3594454639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1707953410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -855,7 +879,7 @@ RectTransform:
   m_Children:
   - {fileID: 1831297641}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -889,7 +913,7 @@ Transform:
   - {fileID: 1630393568}
   - {fileID: 326689604}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
 --- !u!1 &1778564524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1043,6 @@ GameObject:
   - 224: {fileID: 1831297641}
   - 222: {fileID: 1831297644}
   - 114: {fileID: 1831297643}
-  - 114: {fileID: 1831297642}
   m_Layer: 5
   m_Name: Fadeout_Panel
   m_TagString: Untagged
@@ -1045,18 +1068,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1831297642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11461830, guid: 870fe93b4d9b3c44ba78f505574a2f3d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1831297640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1831297643
 MonoBehaviour:
   m_ObjectHideFlags: 0
