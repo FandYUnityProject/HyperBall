@@ -6,17 +6,16 @@ public class TestPlayer_Move : MonoBehaviour {
     // speedを制御する
     public float speed = 10;
 
-
     void FixedUpdate()
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         Rigidbody rigidbody = GetComponent<Rigidbody>();
-
         rigidbody.AddForce(x * speed, 0, z * speed);
     }
 
+    /*
     void OnCollisionEnter(Collision coll)
     {
 
@@ -47,4 +46,5 @@ public class TestPlayer_Move : MonoBehaviour {
             //Physics.gravity = new Vector3(0, -9.8f, 0);
         }
     }
+    */
 }
