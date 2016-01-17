@@ -15,6 +15,7 @@ public class HyperBall_Hierarchy_Check : MonoBehaviour {
 
     void Start() {
         if(transform.root.gameObject.tag != "Stage") {
+            DebugInfo_Manager.DebugInfo_Update("HyperBall(プレイヤー)がStageの子オブジェクトに設定されていません。\nHyperBallをStage(Stageタグ)の子オブジェクトに設定してください。");
             Debug.LogError("HyperBall(プレイヤー)がStageの子オブジェクトに設定されていません。\nHyperBallをStage(Stageタグ)の子オブジェクトに設定してください。");
         }
     }

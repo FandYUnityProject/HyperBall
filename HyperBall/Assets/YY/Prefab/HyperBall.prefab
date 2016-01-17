@@ -1,21 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &168566
+--- !u!1 &103298
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 440586}
-  - 33: {fileID: 3313292}
-  - 135: {fileID: 13596808}
-  - 23: {fileID: 2388662}
-  - 54: {fileID: 5430808}
-  - 114: {fileID: 11413664}
-  - 114: {fileID: 11409806}
-  - 114: {fileID: 11495478}
-  - 114: {fileID: 11445138}
+  - 4: {fileID: 436258}
+  - 33: {fileID: 3393772}
+  - 135: {fileID: 13566140}
+  - 23: {fileID: 2356430}
+  - 54: {fileID: 5411074}
+  - 114: {fileID: 11440256}
+  - 114: {fileID: 11451702}
+  - 114: {fileID: 11497070}
+  - 114: {fileID: 11428144}
+  - 114: {fileID: 11414172}
   m_Layer: 0
   m_Name: HyperBall
   m_TagString: Player
@@ -23,24 +24,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &440586
+--- !u!4 &436258
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &2388662
+--- !u!23 &2356430
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,19 +62,19 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &3313292
+--- !u!33 &3393772
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &5430808
+--- !u!54 &5411074
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -83,23 +84,35 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11409806
+--- !u!114 &11414172
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0c084d6773029b449259bfffae4b249, type: 3}
+  m_Script: {fileID: 11500000, guid: 942ec4de7d9334a459b4b383e619e23b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11413664
+--- !u!114 &11428144
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a41d5871ec9cdc4daaf88be46717780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpPower: 1000
+--- !u!114 &11440256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103298}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c014f2a48b250cb4b97a58e8e7f2b849, type: 3}
@@ -110,35 +123,36 @@ MonoBehaviour:
   Radius: 6
   RotSpeed: 10
   RotHorizonSpeed: 300
---- !u!114 &11445138
+--- !u!114 &11451702
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a41d5871ec9cdc4daaf88be46717780, type: 3}
+  m_Script: {fileID: 11500000, guid: e0c084d6773029b449259bfffae4b249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpPower: 1000
---- !u!114 &11495478
+  MiniGame_Finish_Image: {fileID: 0}
+  NextScene_Name: Opening
+--- !u!114 &11497070
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea4c9bad3832cc146b363ab259021ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &13596808
+--- !u!135 &13566140
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168566}
+  m_GameObject: {fileID: 103298}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -154,5 +168,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 168566}
+  m_RootGameObject: {fileID: 103298}
   m_IsPrefabParent: 1

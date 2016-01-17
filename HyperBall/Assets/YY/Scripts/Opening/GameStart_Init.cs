@@ -17,6 +17,7 @@ public class GameStart_Init : MonoBehaviour {
 	void Awake () {
         // 初プレイ時の初期化処理
         if (PlayerPrefs.GetInt("isExistGameData") == 0){
+            DebugInfo_Manager.DebugInfo_Update("初プレイのため、ゲームを初期化します。");
             GameData_Init();
         }
     }
@@ -26,6 +27,7 @@ public class GameStart_Init : MonoBehaviour {
         // 既プレイフラグを立て、セーブデータを初期化
         PlayerPrefs.SetInt("isExistGameData", 1);
         AllStage_Data_Init();
+        DebugInfo_Manager.DebugInfo_Update("ゲームを初期化しました。");
     }
 
     // セーブデータを初期化

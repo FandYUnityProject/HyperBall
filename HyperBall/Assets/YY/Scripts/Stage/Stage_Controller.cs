@@ -27,8 +27,10 @@ public class Stage_Controller : MonoBehaviour {
         moveDirection.y = 0; //入力値を掛けて最終的な入力方向を決定。
     }
 
-    // 傾き反映
+    // 操作可能時、傾き反映
     void Update() {
-        transform.rotation = Quaternion.Euler(moveDirection * 最大傾き角度);
+        if (Operation_Permission_Controll._isOperation_Permission) {
+            transform.rotation = Quaternion.Euler(moveDirection * 最大傾き角度);
+        }
     }
 }

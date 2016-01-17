@@ -72,13 +72,16 @@
     <Compile Include="Assets\YY\Scripts\Debug\DebugScrollbar.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\Debug_DataManager.cs" />
     <Compile Include="Assets\YY\Scripts\DontDestroyOnloadObject.cs" />
+    <Compile Include="Assets\YY\Scripts\GameGUI\MiniGame_Start.cs" />
+    <Compile Include="Assets\YY\Scripts\Global\Global_Function\SceneTransition\SceneTransition_Controll.cs" />
+    <Compile Include="Assets\YY\Scripts\Global\Global_Variable\Operation_Permission_Controll.cs" />
+    <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_FreezePosition_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_Hierarchy_Check.cs" />
     <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_Jump.cs" />
-    <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_TouchObj.cs" />
+    <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_TouchGoal_Obj.cs" />
     <Compile Include="Assets\YY\Scripts\HyperBall\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\GameStart_Init.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\Opening_LogoAnime.cs" />
-    <Compile Include="Assets\YY\Scripts\SceneTransition\SceneTransition_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Stage\Stage_Controller.cs" />
     <Compile Include="Assets\YY\Scripts\Test\TestPlayer\TestPlayer_Move.cs" />
   </ItemGroup>

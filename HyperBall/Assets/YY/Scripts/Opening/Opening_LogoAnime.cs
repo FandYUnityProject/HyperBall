@@ -18,7 +18,7 @@ public class Opening_LogoAnime : MonoBehaviour {
 
     void Start() {
         Invoke("FadeIn_Start", 0.5f);
-        DebugInfo_Manager.DebugInfo_Update("\n========= ゲーム開始 =========");
+        DebugInfo_Manager.DebugInfo_Update("\n========= オープニング開始 =========");
     }
 
     // フェードアウト用パネルのアニメーション処理
