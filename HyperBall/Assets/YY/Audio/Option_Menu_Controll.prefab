@@ -36,10 +36,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 145190}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5931520dde71a594896798c483f8559e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b648206fd6fb5d4c9ff5549a2bdd9d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Option_Menu_Canvas: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
