@@ -16,12 +16,13 @@ public class Timer_Controll : MonoBehaviour {
     private float _StageClear_Timer = 0.0f;
     private int _MinuteCount = 0;   // 分
 
-    public GameObject Timer_Text;
+    private GameObject Timer_Text;
 
     // タイマー初期化
 	void Start () {
         _StageClear_Timer = 0.000f;
         _MinuteCount = 0;
+        Timer_Text = GameObject.Find("Timer_Text");
     }
 	
 	// カウントアップ(少数第三位まで)してタイマー更新
