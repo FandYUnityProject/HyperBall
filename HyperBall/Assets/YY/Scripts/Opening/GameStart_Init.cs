@@ -35,8 +35,8 @@ public class GameStart_Init : MonoBehaviour {
 
         // 音量の初期化
         PlayerPrefs.SetInt("Master_Volume", 80);
-        PlayerPrefs.SetInt("isClear_NormalStage", 100);
-        PlayerPrefs.SetInt("isClear_HardStage", 100);
+        PlayerPrefs.SetInt("BGM_Volume", 100);
+        PlayerPrefs.SetInt("SE_Volume", 100);
 
         for (int i=1; i<=30; i++) {
             // クリアフラグの初期化

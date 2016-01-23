@@ -15,14 +15,13 @@ public class SEVolumeSlider : MonoBehaviour {
 
     private GameObject SE_Source;
 
-    void Start()
-    {
+    void Start() {
         SE_Source = GameObject.Find("SE_Source");
+        GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("SE_Volume") / 100.0f);
     }
 
     public void OnValueChanged_SEVolumeSlider ()
     {
         SE_Source.GetComponent<AudioSource>().volume = Mathf.Lerp(0, 1, this.GetComponent<Slider>().value);
     }
-	
 }

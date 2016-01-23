@@ -55,8 +55,12 @@ public class Debug_DataManager : MonoBehaviour
         // 既プレイフラグを下ろす
         PlayerPrefs.SetInt("isExistGameData", 1);
 
-        for (int i = 1; i <= 30; i++)
-        {
+        // 音量の初期化
+        PlayerPrefs.SetInt("Master_Volume", 80);
+        PlayerPrefs.SetInt("BGM_Volume", 100);
+        PlayerPrefs.SetInt("SE_Volume", 100);
+
+        for (int i = 1; i <= 30; i++) {
             // クリアフラグの初期化
             PlayerPrefs.SetInt("isClear_EasyStage_" + i, 0);
             PlayerPrefs.SetInt("isClear_NormalStage_" + i, 0);

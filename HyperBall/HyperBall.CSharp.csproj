@@ -77,6 +77,7 @@
     <Compile Include="Assets\YY\Scripts\Debug\Debug_DataManager.cs" />
     <Compile Include="Assets\YY\Scripts\DontDestroyOnloadObject.cs" />
     <Compile Include="Assets\YY\Scripts\GameGUI\MiniGame_Start.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\OptionButton.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Coin_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Timer_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Global\Global_Function\SceneTransition\SceneTransition_Controll.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets\YY\Scripts\Opening\Load_SaveData.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\Opening_LogoAnime.cs" />
     <Compile Include="Assets\YY\Scripts\Option_Menu\BGMVolumeSlider.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\Correct_Button.cs" />
     <Compile Include="Assets\YY\Scripts\Option_Menu\FullScreen_Toggle.cs" />
     <Compile Include="Assets\YY\Scripts\Option_Menu\MasterVolumeSlider.cs" />
     <Compile Include="Assets\YY\Scripts\Option_Menu\Option_Button.cs" />

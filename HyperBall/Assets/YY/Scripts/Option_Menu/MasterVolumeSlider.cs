@@ -13,6 +13,10 @@ using UnityEngine.UI;
 
 public class MasterVolumeSlider : MonoBehaviour {
 
+    void Start() {
+        GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("Master_Volume") / 100.0f);
+    }
+
     [SerializeField]
     UnityEngine.Audio.AudioMixer mixer;
 
