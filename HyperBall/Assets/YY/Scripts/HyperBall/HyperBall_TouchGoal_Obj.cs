@@ -12,11 +12,12 @@ using UnityEngine;
 
 public class HyperBall_TouchGoal_Obj : MonoBehaviour {
 
-    public GameObject MiniGame_Finish_Image;
+    private GameObject MiniGame_Finish_Image;
     public string NextScene_Name;
 
     void Start() {
         // 初期化
+        MiniGame_Finish_Image = GameObject.Find("MiniGame_Finish_Image");
         MiniGame_Finish_Image.transform.localScale = new Vector3(0, 0, 0);
     }
 
