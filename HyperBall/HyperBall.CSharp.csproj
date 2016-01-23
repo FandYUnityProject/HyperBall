@@ -85,6 +85,7 @@
     <Compile Include="Assets\YY\Scripts\HyperBall\ThirdPersonCameraController.cs" />
     <Compile Include="Assets\YY\Scripts\ObjectRotation.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\GameStart_Init.cs" />
+    <Compile Include="Assets\YY\Scripts\Opening\Load_SaveData.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\Opening_LogoAnime.cs" />
     <Compile Include="Assets\YY\Scripts\Stage\Stage_Controller.cs" />
     <Compile Include="Assets\YY\Scripts\Test\TestPlayer\TestPlayer_Move.cs" />
