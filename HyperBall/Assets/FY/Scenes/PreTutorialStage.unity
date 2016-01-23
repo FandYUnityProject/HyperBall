@@ -940,7 +940,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 410e3716f4f4eb34e9b7972f05beb681, type: 3}
       propertyPath: m_Name
-      value: TStage (1)
+      value: TStage
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 410e3716f4f4eb34e9b7972f05beb681, type: 3}
       propertyPath: m_TagString

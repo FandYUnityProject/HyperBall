@@ -668,21 +668,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1052571154 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 103298, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-  m_PrefabInternal: {fileID: 1115031031}
---- !u!114 &1052571155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052571154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80663076f2871844bad4ebc0a051b95c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1056549690
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,54 +836,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: MainCamera
-      value: 
-      objectReference: {fileID: 1561918959}
     - target: {fileID: 11451702, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
       propertyPath: MiniGame_Finish_Image
       value: 
       objectReference: {fileID: 937083658}
-    - target: {fileID: 11451702, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: NextScene_Name
-      value: Opening
-      objectReference: {fileID: 0}
     - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: RotHorizonSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 436258, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 436258, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 436258, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5411074, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: m_Mass
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: Radius
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: Offset.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: AngX
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 11428144, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
-      propertyPath: JumpPower
-      value: 80
-      objectReference: {fileID: 0}
+      propertyPath: MainCamera
+      value: 
+      objectReference: {fileID: 1561918959}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
   m_IsPrefabParent: 0
