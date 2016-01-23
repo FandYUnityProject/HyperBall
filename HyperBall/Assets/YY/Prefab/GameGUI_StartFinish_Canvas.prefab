@@ -61,7 +61,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 199274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d54d12208d4744ba59280d34d6ff65, type: 3}
+  m_Script: {fileID: 11500000, guid: c6a90addfc13b074ebf8ea23e589102c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11413916
@@ -99,7 +99,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 47f15ace8f252c247b05bcfe18956407, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d639d79a5893e440a29d79b542187d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fd8b802232638eb4aa5150d1375278e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f21557ba7a1c9ba43b6743d17793b9de, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -244,7 +244,12 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f21557ba7a1c9ba43b6743d17793b9de,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 149740}
