@@ -367,6 +367,10 @@ Prefab:
       propertyPath: NextScene_Name
       value: Opening
       objectReference: {fileID: 0}
+    - target: {fileID: 11440256, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
+      propertyPath: RotHorizonSpeed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3944f7fb726be06429a42734b16c0dd4, type: 2}
   m_IsPrefabParent: 0
@@ -539,6 +543,7 @@ GameObject:
   - 92: {fileID: 1561918957}
   - 124: {fileID: 1561918956}
   - 81: {fileID: 1561918955}
+  - 45: {fileID: 1561918960}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -613,6 +618,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!45 &1561918960
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561918954}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 12ccb828343c3405fb94289774b51aad, type: 2}
 --- !u!1001 &1587577533
 Prefab:
   m_ObjectHideFlags: 0
