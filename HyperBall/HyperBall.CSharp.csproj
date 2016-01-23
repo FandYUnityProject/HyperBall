@@ -57,12 +57,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -97,6 +91,13 @@
     <Compile Include="Assets\YY\Scripts\Opening\GameStart_Init.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\Load_SaveData.cs" />
     <Compile Include="Assets\YY\Scripts\Opening\Opening_LogoAnime.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\BGMVolumeSlider.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\FullScreen_Toggle.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\MasterVolumeSlider.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\Option_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\Option_Menu_Controll.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\Return_Option_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\Option_Menu\SEVolumeSlider.cs" />
     <Compile Include="Assets\YY\Scripts\Stage\Stage_Controller.cs" />
     <Compile Include="Assets\YY\Scripts\Test\TestPlayer\TestPlayer_Move.cs" />
   </ItemGroup>

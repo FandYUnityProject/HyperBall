@@ -12,7 +12,7 @@ using UnityEngine;
 
 public class ThirdPersonCameraController : MonoBehaviour
 {
-    public Transform MainCamera;
+    private Transform MainCamera;
     public Vector3 Offset = new Vector3(0, 0, 0);   // プレイヤーとの距離（座標）
     public float Radius = 10.0f;                    // プレイヤーとの距離（半径）
     public float RotSpeed = 10.0f;                  // 視点の回転スピード
@@ -26,6 +26,8 @@ public class ThirdPersonCameraController : MonoBehaviour
 
     // カメラの初期位置を設定
     void Start() {
+        MainCamera = GameObject.Find("Main Camera").GetComponent<Transform>();
+
         initCameraPos = new Vector3(0, 0, Radius);
         myTrf = transform;
         MainCamera.position = myTrf.position + Offset + initCameraPos;
