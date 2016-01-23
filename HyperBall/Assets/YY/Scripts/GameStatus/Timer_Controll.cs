@@ -12,17 +12,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Timer_Controll : MonoBehaviour {
+    
+    private GameObject Timer_Text;
 
     private float _StageClear_Timer = 0.0f;
     private int _MinuteCount = 0;   // 分
 
-    private GameObject Timer_Text;
-
     // タイマー初期化
 	void Start () {
+        Timer_Text = GameObject.Find("Timer_Text");
         _StageClear_Timer = 0.000f;
         _MinuteCount = 0;
-        Timer_Text = GameObject.Find("Timer_Text");
     }
 	
 	// カウントアップ(少数第三位まで)してタイマー更新

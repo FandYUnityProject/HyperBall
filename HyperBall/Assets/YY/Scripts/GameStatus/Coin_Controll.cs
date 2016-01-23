@@ -12,14 +12,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Coin_Controll : MonoBehaviour {
-
-    public GameObject CointCount_Text;
+    
+    private GameObject CointCount_Text;
 
     public static int GetCoin = 0;
     public static GameObject CointCountText;
 
     // 取得したコイン数を初期化
     void Start () {
+        CointCount_Text = GameObject.Find("CointCount_Text");
         GetCoin = 0;
         CointCountText = CointCount_Text;
     }
