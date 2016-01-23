@@ -17,9 +17,9 @@ public class ThirdPersonCameraController : MonoBehaviour
     public float Radius = 10.0f;                    // プレイヤーとの距離（半径）
     public float RotSpeed = 10.0f;                  // 視点の回転スピード
     public float RotHorizonSpeed = 140.0f;          // 視点の回転スピード
+    public float AngX = 6, AngY = 0;               // カメラの角度
 
     private Transform myTrf;
-    private float AngX = 0, AngY = 0;
     private float nAngX, nAngY;
     private float MousePosX, MousePosY, subRadius;
     private Vector3 CameraPos, initCameraPos, Center;

@@ -16,7 +16,7 @@ public class Stage_Controller : MonoBehaviour {
     Vector3 moveDirection;
 
     void Start() {
-        Physics.gravity = new Vector3(0, -100.0f, 0);
+        Physics.gravity = new Vector3(0, -9.8f, 0);
     }
 
     // カメラの向きに応じて入力方向を変更
