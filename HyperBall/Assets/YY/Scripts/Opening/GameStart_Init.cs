@@ -32,7 +32,13 @@ public class GameStart_Init : MonoBehaviour {
 
     // セーブデータを初期化
     void AllStage_Data_Init() {
-        for(int i=1; i<=30; i++) {
+
+        // 音量の初期化
+        PlayerPrefs.SetInt("Master_Volume", 80);
+        PlayerPrefs.SetInt("isClear_NormalStage", 100);
+        PlayerPrefs.SetInt("isClear_HardStage", 100);
+
+        for (int i=1; i<=30; i++) {
             // クリアフラグの初期化
             PlayerPrefs.SetInt("isClear_EasyStage_"   + i, 0);
             PlayerPrefs.SetInt("isClear_NormalStage_" + i, 0);
