@@ -14,8 +14,7 @@ using System.Collections;
 
 public class FullScreen_Toggle : MonoBehaviour {
 
-	public void OnValueChange_FullScreen()
-    {
+	public void OnValueChange_FullScreen() {
         // 現在のフルスクリーン状況に応じてON/OFFを切替
         if (!Screen.fullScreen && this.GetComponent<Toggle>().isOn)
         {

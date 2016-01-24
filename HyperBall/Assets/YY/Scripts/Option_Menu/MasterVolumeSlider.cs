@@ -14,7 +14,11 @@ using UnityEngine.UI;
 public class MasterVolumeSlider : MonoBehaviour {
 
     void Start() {
-        GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("Master_Volume") / 100.0f);
+        if (PlayerPrefs.GetInt("Master_Volume") != 0){
+            GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("Master_Volume") / 100.0f);
+        } else {
+            GetComponent<Slider>().value = 0.001f;
+        }
     }
 
     [SerializeField]

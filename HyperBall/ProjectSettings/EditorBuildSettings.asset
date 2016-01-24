@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/YY/Scenes/Opening.unity
+    path: Assets/Scenes/Opening.unity
   - enabled: 1
-    path: Assets/YY/Scenes/GameSelect.unity
+    path: Assets/Scenes/GameSelect.unity
+  - enabled: 1
+    path: Assets/Scenes/FreeMode.unity
+  - enabled: 1
+    path: Assets/Scenes/EasyStage/EasyStage_1.unity
+  - enabled: 1
+    path: Assets/Scenes/NormalStage/NormalStage_1.unity
+  - enabled: 1
+    path: Assets/Scenes/HardStage/HardStage_1.unity
   - enabled: 1
     path: Assets/YY/Scenes/TestScene/RollingTest.unity
   - enabled: 1
