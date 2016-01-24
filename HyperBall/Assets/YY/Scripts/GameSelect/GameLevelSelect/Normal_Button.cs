@@ -13,6 +13,6 @@ using UnityEngine;
 public class Normal_Button : MonoBehaviour {
 
     public void Click_Normal_Button() {
-        SceneTransition_Controll.NextScene_Transition("NormalStage_1");
+        GameSelectScene_Controll.Normal_Button_Event();
     }
 }

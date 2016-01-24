@@ -13,6 +13,6 @@ using UnityEngine;
 public class Easy_Button : MonoBehaviour {
 
     public void Click_Easy_Button() {
-        SceneTransition_Controll.NextScene_Transition("EasyStage_1");
+        GameSelectScene_Controll.Easy_Button_Event();
     }
 }

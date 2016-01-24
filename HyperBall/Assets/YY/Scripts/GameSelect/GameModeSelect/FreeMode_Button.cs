@@ -13,6 +13,6 @@ using UnityEngine;
 public class FreeMode_Button : MonoBehaviour {
 
     public void Click_FreeMode_Button() {
-        SceneTransition_Controll.NextScene_Transition("FreeMode");
+        GameSelectScene_Controll.FreeMode_Button_Event();
     }
 }

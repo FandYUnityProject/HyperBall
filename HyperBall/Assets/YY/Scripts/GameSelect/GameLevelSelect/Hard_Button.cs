@@ -13,6 +13,6 @@ using UnityEngine;
 public class Hard_Button : MonoBehaviour {
 
     public void Click_Hard_Button() {
-        SceneTransition_Controll.NextScene_Transition("HardStage_1");
+        GameSelectScene_Controll.Hard_Button_Event();
     }
 }
