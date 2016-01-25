@@ -14,4 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FY/Scenes/PreTutorialStage.unity
   - enabled: 1
-    path: Assets/FY/Scenes/Stage1.unity
+    path: Assets/FY/Scenes/testStage.unity
