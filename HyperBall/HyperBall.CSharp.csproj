@@ -72,12 +72,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
+    <Compile Include="Assets\YY\Scripts\Audio\SE_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\DebugInfo_Manager.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\DebugScrollbar.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\Debug_DataManager.cs" />
     <Compile Include="Assets\YY\Scripts\DontDestroyOnloadObject.cs" />
     <Compile Include="Assets\YY\Scripts\GameGUI\MiniGame_Start.cs" />
-    <Compile Include="Assets\YY\Scripts\GameSelect\OptionButton.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Easy_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Hard_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Normal_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Return_GameModeSelect_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameModeSelect\ChallengeMode_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameModeSelect\FreeMode_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameModeSelect\OptionButton.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GamePressButton\Game_PressButton_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\GameSelect\GameSelectScene_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Coin_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Timer_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Global\Global_Function\SceneTransition\SceneTransition_Controll.cs" />

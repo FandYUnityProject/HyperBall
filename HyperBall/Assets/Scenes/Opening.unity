@@ -384,7 +384,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.31
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -2998,6 +2998,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1596251373}
   - 82: {fileID: 1596251374}
+  - 114: {fileID: 1596251375}
   m_Layer: 0
   m_Name: SE_Source
   m_TagString: Untagged
@@ -3093,6 +3094,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1596251375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596251372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1435fc67ea1d9404fb2e9516ae27af8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SE_List:
+  - {fileID: 8300000, guid: 2ecf9b4e3e906594abc4f3ab15a74c08, type: 3}
+  - {fileID: 8300000, guid: 2375707a8542de44cac1ebfd722734c2, type: 3}
+  - {fileID: 8300000, guid: c14f61e238a196946a0b6cc9947c59d2, type: 3}
 --- !u!1 &1615233859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,7 +3916,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 3}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

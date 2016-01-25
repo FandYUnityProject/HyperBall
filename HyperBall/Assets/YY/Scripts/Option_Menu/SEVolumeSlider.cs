@@ -17,7 +17,11 @@ public class SEVolumeSlider : MonoBehaviour {
 
     void Start() {
         SE_Source = GameObject.Find("SE_Source");
-        GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("SE_Volume") / 100.0f);
+        if(PlayerPrefs.GetInt("SE_Volume") != 0) {
+            GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("SE_Volume") / 100.0f);
+        } else {
+            GetComponent<Slider>().value = 0.001f;
+        }
     }
 
     public void OnValueChanged_SEVolumeSlider ()

@@ -17,7 +17,12 @@ public class BGMVolumeSlider : MonoBehaviour {
 
     void Start() {
         BGM_Source = GameObject.Find("BGM_Source");
-        GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("BGM_Volume") / 100.0f);
+
+        if(PlayerPrefs.GetInt("BGM_Volume") != 0) {
+            GetComponent<Slider>().value = (float)(PlayerPrefs.GetInt("BGM_Volume") / 100.0f);
+        } else {
+            GetComponent<Slider>().value = 0.001f;
+        }
     }
 
     public void OnValueChanged_BGMVolumeSlider ()
