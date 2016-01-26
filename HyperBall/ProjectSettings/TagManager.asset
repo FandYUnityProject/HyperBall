@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Stage
   - Coin
+  - DashPlate
   layers:
   - Default
   - TransparentFX

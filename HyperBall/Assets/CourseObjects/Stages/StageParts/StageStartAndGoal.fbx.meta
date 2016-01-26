@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 74705933fef0078439842dc29951a0ca
-timeCreated: 1453709053
+guid: 3813d5b397f8c724da6c53577b103b49
+timeCreated: 1453794859
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: StageStartandGoal
   materials:
     importMaterials: 1
     materialName: 0
