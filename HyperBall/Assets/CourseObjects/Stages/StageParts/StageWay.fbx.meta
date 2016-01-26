@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 410e3716f4f4eb34e9b7972f05beb681
-timeCreated: 1453525898
+guid: 01af39adb60dc4541a8219c49340f464
+timeCreated: 1453794863
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: StageWay
   materials:
     importMaterials: 1
     materialName: 0

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 926059642d658de42971d60c5b6ea0dd
-timeCreated: 1452923705
+guid: cd7cc54c1cfad4c4db1af0cbac9922e4
+timeCreated: 1453794855
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Circle
+    4300000: StagePlane
   materials:
     importMaterials: 1
     materialName: 0

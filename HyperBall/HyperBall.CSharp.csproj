@@ -71,6 +71,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FY\Scripts\HyperBall_TouchDashPlate_Obj.cs" />
+    <Compile Include="Assets\FY\Scripts\PingPongMove_controller.cs" />
     <Compile Include="Assets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
     <Compile Include="Assets\YY\Scripts\Audio\SE_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\DebugInfo_Manager.cs" />
