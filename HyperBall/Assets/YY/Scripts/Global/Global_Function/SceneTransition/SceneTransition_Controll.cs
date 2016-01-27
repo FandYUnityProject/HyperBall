@@ -22,7 +22,6 @@ public class SceneTransition_Controll : MonoBehaviour {
         // 初期化
         isScene_Transition = false;
 
-        Fadeout_Panel = GameObject.Find("Fadeout_Panel");  // フェードアウト用パネルの取得
         Fadeout_Panel = GameObject.Find("Fade_Panel");  // フェードアウト用パネルの取得
         Fadeout_Panel.GetComponent<Image>().color = new Color(0.0f, 0.0f, 0.0f, 0.0f); // 透明度の初期化
     }
