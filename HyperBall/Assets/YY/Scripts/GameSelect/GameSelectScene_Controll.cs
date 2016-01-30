@@ -47,12 +47,12 @@ public class GameSelectScene_Controll : MonoBehaviour {
         Return_GameModeSelect_Button = GameObject.Find("Return_GameModeSelect_Button");
 
         // "Game_PressButton_Button"以外を非活性
-        All_HideImage();
+        GameSelectScene_All_HideImage();
         Game_PressButton_Button.SetActive(true);
     }
 
     // 全てのボタンを非表示にする
-    public static void All_HideImage() {
+    public static void GameSelectScene_All_HideImage() {
         Game_PressButton_Button.SetActive(false);
         ChallengeMode_Button.SetActive(false);
         FreeMode_Button.SetActive(false);
@@ -70,7 +70,7 @@ public class GameSelectScene_Controll : MonoBehaviour {
         SE_Controll.SE_Change(0);
         GameSelect_SeSource.Play();
 
-        All_HideImage();
+        GameSelectScene_All_HideImage();
         ChallengeMode_Button.SetActive(true);
         FreeMode_Button.SetActive(true);
         Option_Button.SetActive(true);
@@ -82,12 +82,15 @@ public class GameSelectScene_Controll : MonoBehaviour {
         SE_Controll.SE_Change(0);
         GameSelect_SeSource.Play();
 
-        All_HideImage();
+        GameSelectScene_All_HideImage();
         ChallengeModeTitle_Image.SetActive(true);
         Easy_Button.SetActive(true);
         Normal_Button.SetActive(true);
         Hard_Button.SetActive(true);
         Return_GameModeSelect_Button.SetActive(true);
+
+        // ゲームモードを"Challenge"に変更
+        GameMode_Controll.GameMode_Name_Change("Challenge");
     }
 
     // "FreeMode_Button"押下時にEasyStage_1に遷移
@@ -95,6 +98,9 @@ public class GameSelectScene_Controll : MonoBehaviour {
         // 決定音に変更して音を鳴らす
         SE_Controll.SE_Change(2);
         GameSelect_SeSource.Play();
+
+        // ゲームモードを"Free"に変更
+        GameMode_Controll.GameMode_Name_Change("Free");
 
         SceneTransition_Controll.NextScene_Transition("FreeMode");
     }
@@ -133,7 +139,7 @@ public class GameSelectScene_Controll : MonoBehaviour {
         SE_Controll.SE_Change(1);
         GameSelect_SeSource.Play();
 
-        All_HideImage();
+        GameSelectScene_All_HideImage();
         ChallengeMode_Button.SetActive(true);
         FreeMode_Button.SetActive(true);
         Option_Button.SetActive(true);

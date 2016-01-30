@@ -79,6 +79,13 @@
     <Compile Include="Assets\YY\Scripts\Debug\DebugScrollbar.cs" />
     <Compile Include="Assets\YY\Scripts\Debug\Debug_DataManager.cs" />
     <Compile Include="Assets\YY\Scripts\DontDestroyOnloadObject.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\FreeModeScene_Controll.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\FreeMode_Easy_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\FreeMode_Hard_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\FreeMode_Normal_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\Return_GameLevelSelect_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\Return_GameSelectScene_Button.cs" />
+    <Compile Include="Assets\YY\Scripts\FreeMode\StageNumber_Button.cs" />
     <Compile Include="Assets\YY\Scripts\GameGUI\MiniGame_Start.cs" />
     <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Easy_Button.cs" />
     <Compile Include="Assets\YY\Scripts\GameSelect\GameLevelSelect\Hard_Button.cs" />
@@ -91,6 +98,7 @@
     <Compile Include="Assets\YY\Scripts\GameSelect\GameSelectScene_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Coin_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\GameStatus\Timer_Controll.cs" />
+    <Compile Include="Assets\YY\Scripts\Global\Global_Function\SceneTransition\GameMode_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Global\Global_Function\SceneTransition\SceneTransition_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\Global\Global_Variable\Operation_Permission_Controll.cs" />
     <Compile Include="Assets\YY\Scripts\HyperBall\HyperBall_FreezePosition_Controll.cs" />
